@@ -1,5 +1,9 @@
+//Sorting เเนว comparison ที่เร็วที่สุดเท่าที่เป็นไปได้เเล้ว O(n log n)
+//ทำเป็น 2 func
+//time complexity = O(n)
+
 function mergeSort(arr) {
-  if (arr.length <= 1) {
+  if (arr.length < 2) {
     return arr; // base case ถ้ามี 1 ตัวหรือว่างก็ไม่ต้องจัดเรียง
   }
 
