@@ -7,6 +7,6 @@ function fibo(num) {
    return fibo(num - 1 ) + fibo(num - 2)
 }
 //loop run function
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 36; i++) {
     console.log(fibo(i));
 }
